@@ -18,7 +18,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
-        android:id="@+id/num1"
+        android:id="@+id/amount1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
@@ -30,22 +30,12 @@
     </EditText>
 
     <EditText
-        android:id="@+id/num2"
+        android:id="@+id/amount2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:ems="10" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/num2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:text="+"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
         android:id="@+id/addBtn"
@@ -55,5 +45,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="64dp"
         android:text="Add" />
+
+    <TextView
+        android:id="@+id/sumResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Result." />
 
 </RelativeLayout>
